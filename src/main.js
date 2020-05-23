@@ -1,12 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import IndexComp from "components/index";
+import { Provider } from "mobx-react";
+import IndexComp from "components/plugins";
 import STORE from "store";
 
-const IndexContext = React.createContext(STORE);
 ReactDOM.render(
-  <IndexContext.Provider>
+  <Provider store={STORE}>
     <IndexComp />
-  </IndexContext.Provider>,
+  </Provider>,
   document.getElementById("root")
 );
