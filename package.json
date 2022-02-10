@@ -33,7 +33,7 @@
     "html-webpack-plugin": "^4.3.0",
     "mobx": "^5.15.4",
     "mobx-react": "^6.2.2",
-    "node-sass": "^4.14.0",
+    "node-sass": "^7.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "sass-loader": "^8.0.2",
